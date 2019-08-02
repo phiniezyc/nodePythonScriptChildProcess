@@ -1,0 +1,23 @@
+{
+  "name": "nodePythonScriptChildProcess",
+  "version": "1.0.0",
+  "description": "Python script from Node.js using child process spawn() method",
+  "main": "start.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phiniezyc/nodePythonScriptChildProcess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phiniezyc/nodePythonScriptChildProcess/issues"
+  },
+  "homepage": "https://github.com/phiniezyc/nodePythonScriptChildProcess#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
