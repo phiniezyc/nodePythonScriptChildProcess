@@ -23,9 +23,10 @@ function callName(req, res) {
 
   // E.g : http://localhost:3000/name?firstname=Mike&lastname=Will
   // so, first name = Mike and last name = Will
-  const process = spawn('python', ['./hello.py',
-    req.query.firstname,
-    req.query.lastname]);
+  // for more detail on spawn: https://www.youtube.com/watch?v=ojeiaroDQW8
+  const process = spawn('python3', ['./hello.py', // this tells python to run hello.py file
+    req.query.firstname, // first arg sent to python
+    req.query.lastname]); // second arg sent to python
 
   // Takes stdout data from script which executed
   // with arguments and send this data to res object
