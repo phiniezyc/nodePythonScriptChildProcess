@@ -5,5 +5,5 @@ print("This Is Output from Python")
 print("First name: " + sys.argv[1])
 print("Last name: " + sys.argv[2])
 
-# Could use this to run a python machine learning or other process in a node app
+# Could run a python machine learning or other process in a node app
 

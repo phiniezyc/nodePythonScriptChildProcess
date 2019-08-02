@@ -1,11 +1,7 @@
-// import express JS module into app
-// and creates its variable.
 const express = require('express');
 
 const app = express();
 
-// Creates a server which runs on port 3000 and
-// can be accessed through localhost:3000
 app.listen(3000, () => {
   console.log('server running on port 3000');
 });
@@ -37,5 +33,3 @@ function callName(req, res) {
     res.send(data.toString());
   });
 }
-
-// save code as start.js
